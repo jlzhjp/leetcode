@@ -31,6 +31,8 @@
 
 // Definition for singly-linked list.
 
+namespace AddTowNumbersSolution {
+
 struct ListNode {
   int val;
   ListNode *next;
@@ -42,23 +44,36 @@ struct ListNode {
 class Solution {
 public:
   ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
-    ListNode head;
-    ListNode *cur = &head;
+    ListNode *result = NULL;
+    ListNode **p = &result;
 
-    int plus1 = 0;
+    int carry = 0;
 
-    for (ListNode *n1 = l1, *n2 = l2;; n1 = n1->next, n2 = n2->next) {
+    while (l1 != NULL || l2 != NULL) {
+      int v1 = l1 == NULL ? 0 : l1->val;
+      int v2 = l2 == NULL ? 0 : l2->val;
 
-      int bit = n1->val + n2->val + plus1;
+      int val = v1 + v2 + carry;
+      carry = val / 10;
+      *p = new ListNode(val % 10);
 
-      if (bit >= 10) {
-        cur->next = new ListNode(bit - 10);
-        plus1 = 1;
-      } else {
-        cur->next = new ListNode(10);
-        plus1 = 0; 
+      p = &((*p)->next);
+
+      if (l1 != NULL) {
+        l1 = l1->next;
       }
-      cur = cur->next;
+      if (l2 != NULL) {
+        l2 = l2->next;
+      }
     }
+
+    if (carry != 0) {
+      *p = new ListNode(carry);
+    }
+
+    return result;
   }
 };
+
+}
+

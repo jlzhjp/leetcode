@@ -40,6 +40,7 @@
     <ClCompile Include="plus_one.cpp" />
     <ClCompile Include="remove_duplicates.cpp" />
     <ClCompile Include="remove_element.cpp" />
+    <ClCompile Include="rotate_image.cpp" />
     <ClCompile Include="string_to_integer.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
