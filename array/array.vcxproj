@@ -38,6 +38,7 @@
   <ItemGroup>
     <ClCompile Include="remove_duplicates.cpp" />
     <ClCompile Include="remove_element.cpp" />
+    <ClCompile Include="string_to_integer.cpp" />
     <ClCompile Include="two_sum.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
