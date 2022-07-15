@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="add_two_numbers.cpp" />
+    <ClCompile Include="max_area_of_island.cpp" />
     <ClCompile Include="plus_one.cpp" />
     <ClCompile Include="remove_duplicates.cpp" />
     <ClCompile Include="remove_element.cpp" />
