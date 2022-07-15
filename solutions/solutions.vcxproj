@@ -40,6 +40,7 @@
     <ClCompile Include="max_area_of_island.cpp" />
     <ClCompile Include="multiply_strings.cpp" />
     <ClCompile Include="plus_one.cpp" />
+    <ClCompile Include="pow_x_n.cpp" />
     <ClCompile Include="remove_duplicates.cpp" />
     <ClCompile Include="remove_element.cpp" />
     <ClCompile Include="rotate_image.cpp" />
