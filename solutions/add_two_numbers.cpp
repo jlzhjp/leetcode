@@ -29,10 +29,9 @@
 // It is guaranteed that the list represents a number that does not have leading
 // zeros.
 
+namespace AddTwoNumbersSolution {
+
 // Definition for singly-linked list.
-
-namespace AddTowNumbersSolution {
-
 struct ListNode {
   int val;
   ListNode *next;
