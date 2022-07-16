@@ -66,7 +66,8 @@ TEST(Pow, Example3) {
 
 TEST(Pow, Lowest) {
   Solution s;
-  double val = s.myPow(2., -2147483648);
+  // https://stackoverflow.com/questions/29355956
+  double val = s.myPow(2., -2147483648LL);
   ASSERT_DOUBLE_EQ(val, 0);
 }
 
