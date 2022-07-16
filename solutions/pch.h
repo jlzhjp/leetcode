@@ -1,7 +1,3 @@
-//
-// pch.h
-//
-
 #pragma once
 
 #include "gtest/gtest.h"
@@ -11,3 +7,4 @@
 #include <stack>
 #include <map>
 #include <unordered_map>
+#include <algorithm>

@@ -39,7 +39,7 @@ vector<int> twoSum(vector<int> &nums, int target) {
   for (int i = 0; i != nums.size(); ++i) {
     for (int j = i + 1; j != nums.size(); ++j) {
       if (nums[i] + nums[j] == target) {
-        return {i, j};
+        return { i, j };
       }
     }
   }
@@ -47,23 +47,26 @@ vector<int> twoSum(vector<int> &nums, int target) {
 }
 
 TEST(TwoSum, Minimal) {
-  auto res = twoSum(vector<int>({1, 2}), 3);
+  vector<int> nums{ 1, 2 };
+  auto res = twoSum(nums, 3);
   std::sort(res.begin(), res.end());
-  auto expect = vector<int>({0, 1});
+  auto expect = vector<int>({ 0, 1 });
   EXPECT_EQ(res, expect);
 }
 
 TEST(TwoSum, Descending) {
-  auto res = twoSum(vector<int>({9, 6, 3, 2, 1}), 3);
+  vector<int> nums{ 9, 6, 3, 2, 1 };
+  auto res = twoSum(nums, 3);
   std::sort(res.begin(), res.end());
-  auto expect = vector<int>({3, 4});
+  auto expect = vector<int>({ 3, 4 });
   EXPECT_EQ(res, expect);
 }
 
 TEST(TwoSum, DontUseTheSameNumberTwice) {
-  auto res = twoSum(vector<int>({3, 2, 4}), 6);
+  vector<int> nums{ 3, 2, 4 };
+  auto res = twoSum(nums, 6);
   std::sort(res.begin(), res.end());
-  auto expect = vector<int>({1, 2});
+  auto expect = vector<int>({ 1, 2 });
   EXPECT_EQ(res, expect);
 }
 
