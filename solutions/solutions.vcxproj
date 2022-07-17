@@ -57,6 +57,7 @@
     </ClCompile>
     <ClCompile Include="two_sum.cpp" />
     <ClCompile Include="valid_parentheses.cpp" />
+    <ClCompile Include="zigzag_conversion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
