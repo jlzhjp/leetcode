@@ -38,6 +38,7 @@
   <ItemGroup>
     <ClCompile Include="add_two_numbers.cpp" />
     <ClCompile Include="combination_sum.cpp" />
+    <ClCompile Include="count_and_say.cpp" />
     <ClCompile Include="max_area_of_island.cpp" />
     <ClCompile Include="multiply_strings.cpp" />
     <ClCompile Include="out_of_boundary_paths.cpp" />
