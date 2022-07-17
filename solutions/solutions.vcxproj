@@ -42,6 +42,7 @@
     <ClCompile Include="max_area_of_island.cpp" />
     <ClCompile Include="multiply_strings.cpp" />
     <ClCompile Include="out_of_boundary_paths.cpp" />
+    <ClCompile Include="permutations.cpp" />
     <ClCompile Include="plus_one.cpp" />
     <ClCompile Include="pow_x_n.cpp" />
     <ClCompile Include="remove_duplicates.cpp" />
