@@ -39,12 +39,15 @@
     <ClCompile Include="add_two_numbers.cpp" />
     <ClCompile Include="combination_sum.cpp" />
     <ClCompile Include="count_and_say.cpp" />
+    <ClCompile Include="inorder_traversal.cpp" />
     <ClCompile Include="max_area_of_island.cpp" />
     <ClCompile Include="multiply_strings.cpp" />
     <ClCompile Include="out_of_boundary_paths.cpp" />
     <ClCompile Include="permutations.cpp" />
     <ClCompile Include="plus_one.cpp" />
+    <ClCompile Include="postorder_traversal.cpp" />
     <ClCompile Include="pow_x_n.cpp" />
+    <ClCompile Include="preorder_traversal.cpp" />
     <ClCompile Include="remove_duplicates.cpp" />
     <ClCompile Include="remove_element.cpp" />
     <ClCompile Include="rotate_image.cpp" />
